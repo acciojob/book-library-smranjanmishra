@@ -12,6 +12,11 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.book-library h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .book {
     display: flex;
     margin-bottom: 20px;
@@ -29,6 +34,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #2ecc71; /* Corrected background color */
+    border-radius: 8px; /* Added border-radius */
+    padding: 10px;
+    color: #ffffff; /* Corrected text color */
 }
 
 .book-title {
